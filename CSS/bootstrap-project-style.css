@@ -1,0 +1,232 @@
+/* style navbar */
+.navbar{
+    position: fixed !important;
+    z-index: 5;
+    width: 100%;
+}
+.navbar-brand{
+    color: rgb(136, 0, 255)!important; 
+}
+.nav-link,.dropdown-item,.d-flex .form-control{
+    color: aqua !important;
+}
+.form-control,.dropdown-toggle{
+    border: 2px solid aqua !important;
+   
+}
+.modal-footer .btn-primary{
+    margin-right: auto;
+}
+.fade .modal-header{
+    background-color: aqua;
+}
+.col-form-label{
+    color: aqua;
+}
+.modal-footer .btn{
+    background-color: aqua;
+    color: aliceblue;
+}
+.nav-link{
+    border-radius: 10% !important;
+
+}
+.d-flex .btn-outline-success{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+/* end style navbar */
+/* style seconed section */
+.carousel-item{
+   max-height: 100vh;
+}
+.carousel-item img{
+    background-size: cover;
+    height: 100vh;
+}
+.carousel-item .carousel-caption{
+    background-color: rgba(0, 255, 255,0.25) !important;
+    width: 600px;
+    margin: auto;
+    color: aliceblue;
+    
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    font-size: 100px!important;
+    color: white;
+    background-color: brown;
+}
+
+/* /style second section */
+/* style section three  */
+.section-three .container-fluid{
+    background-color: rgba(0, 255, 255,0.5) !important;
+    border-radius: 10px;
+}
+.section-three{
+    background-color:rgb(238, 234, 234)
+    
+}
+
+
+/* style section three */
+
+/* style section four */
+.col .h2{
+    background-color: green !important;
+    border-radius: 16px;
+    
+    
+}
+.section-four{
+    background-color:rgb(238, 234, 234);
+    border: 1px solid rgb(215, 212, 212);
+    /* border-radius: 10px; */
+}
+
+/* style section four */
+/* style section five */
+.accordion-button{
+    background-color:rgb(238, 234, 234) !important ;
+    color: blueviolet !important;
+    font-size: x-large !important;
+    font-weight:bold !important;
+    border-radius: 10px !important;
+}
+/* /style section five */
+/* style section six */
+.press-here{
+    text-decoration: none;
+    color:green;
+    font-size: larger;
+}
+.section-six{
+    background-color: rgb(227, 224, 224);
+    border:1px solid gray;
+    border-radius: 15px;
+}
+/* style section six */
+
+/* style section seven */
+.section-seven{
+    background-image: url(../images/ssssss.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    background-size: cover;
+    background-position-y: center;
+    
+}
+/* style section seven */
+/* style section eight */
+.col-md-6{
+    position: relative;
+}
+.col-md-6 .card::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 255, 255,0.5);
+}
+.col-md-6 .card:hover::before{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+/* style section eight */
+/* style section nine */
+.section-nine{
+    background-image: url(../images/pexels-onbab-9155310.jpg);
+    background-position-y: center;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius:15px;
+    
+}
+/* style section nine */
+/* style section ten */
+.info-item{
+    margin-top: 250px;
+}
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.455);
+}
+.card-10{
+    transition: .5s all;
+    
+}
+.card-10:hover{
+    transform: scale(.95,.95);
+    
+}
+/* style section ten */
+/* style section eleven */
+.image-eleven{
+    clip-path: polygon(-3% -0%, 103% -14%, 73% 128%, -7% 100%, -5% 50%);
+    border: 1px solid gray;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/for\ amanda\ \(1\).jpeg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.section-eleven .card{
+    /* border-radius: 10% !important; */
+    background-color: rgba(255, 218, 172, 0.568);
+    margin-top: 25px !important;
+    
+   
+}
+.buttns{
+    width: 300px;
+    margin-top: 200px !important;
+}
+.line{
+    width:100px ;
+    height: 2px;
+    border-radius: 1px;
+    background-color: rgb(209, 140, 20);
+    transition: 1s;
+}
+.section-eleven:hover .line{
+    width: 200px;
+   
+}
+.title-eleven{
+    margin: auto;
+    color: blueviolet;
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid green;
+}
+/* style section eleven */
+/* style section twelve */
+.header-twelve{
+    margin: auto;
+    color: blueviolet;
+    margin: 50px;
+}
+/* style section twelve */
+/* style footer */
+.text-primary{
+    color: blueviolet !important;
+}
+.icons-right a i{
+    font-size: 100px;
+    margin-top: 20px;
+    /* margin-left: 1400px; */
+
+
+}
+.icons-right{
+    margin-top: 100px;
+}
+/* end footer */
